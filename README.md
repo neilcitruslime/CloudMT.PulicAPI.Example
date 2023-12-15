@@ -3,9 +3,15 @@
 This project is provides a simple example to retrieve items or categories from the Cloud MT API using C#. 
 The API documentation can be found at https://api.citruslime.com.
 
+## Prerequisites
+
+You will need the DotNet 8 SDK installed. https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+
 ### Getting Started
 
-To get started, you will need to create an account with Citrus-Lime Cloud MT. The username and password can be passed in as command line arguments or the application will request them when it is run.
+To get started, you will need to create an account with Citrus-Lime Cloud MT. 
+
+The username and password can be passed in as command line arguments or the application will request them when it is run.
 
 ```
 dotnet run myusername mypassword
