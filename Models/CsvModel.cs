@@ -13,4 +13,6 @@ public class CsvModel
     public string LookupCode { get; init; } = string.Empty;
     
     public bool Active { get; init; }
+    
+    public string ImageLargePath { get; init; } = string.Empty;
 }

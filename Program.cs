@@ -122,7 +122,7 @@ internal static class Program
                 foreach (ItemResult item in items)
                 {
                     AnsiConsole.WriteLine($"{item.LookupCode}, {item.Name}, {item.Active}");
-                    records.Add(new CsvModel() {Id = item.Id, LookupCode = item.LookupCode, Name = item.Name, Active = Convert.ToBoolean(item.Active)});
+                    records.Add(new CsvModel() {Id = item.Id, LookupCode = item.LookupCode, Name = item.Name, Active = Convert.ToBoolean(item.Active), ImageLargePath = item.Images.FirstOrDefault()?.Url ?? string.Empty});
                 }
             }
         }
